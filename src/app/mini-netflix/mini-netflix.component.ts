@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MiniNetflixComponent implements OnInit {
 
+  contentObject = {
+    title: 'Netflix',
+    price: '1.99'
+  };
+
   constructor() { }
 
   ngOnInit() {
