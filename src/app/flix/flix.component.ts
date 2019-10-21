@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './flix.component.html',
 })
 export class FlixComponent {
-  flix = {
+  flix1 = {
     id: 1,
     name: 'Passion',
     imageUrl: '/assets/images/passion.jpg',
     imageAlt: 'Passion Movie',
-    description: 'A movie about love.'
+    year: '2010'
   }
 }

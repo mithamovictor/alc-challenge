@@ -1,15 +1,5 @@
 <div>
   <p>Latest Movies and Series</p>
   <hr>
-  <div class="card" style="width: 18rem;">
-    <img src="{{flix.imageUrl}}" class="card-img-top" alt="{{flix.imageAlt}}">
-    <div class="card-body">
-      <h5 class="card-title">{{flix.name}}</h5>
-      <p class="card-text">{{flix.description}}</p>
-      <div class="w-100 align-justify">
-        <a href="#" class="btn btn-primary">Favourite</a>
-        <a href="#" class="btn btn-primary">Play</a>
-      </div>
-    </div>
-  </div>
+  <app-flix-thumbnail [flix]="flix1"></app-flix-thumbnail>
 </div>

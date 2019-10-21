@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FlixComponent } from './flix/flix.component';
+import { FlixThumbnailComponent } from './flix/flix-thumbnail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    FlixComponent
+    FlixComponent,
+    FlixThumbnailComponent
   ],
   imports: [
     BrowserModule,
