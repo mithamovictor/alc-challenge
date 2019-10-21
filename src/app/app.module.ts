@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MiniNetflixComponent } from './mini-netflix/mini-netflix.component';
+import { NavComponent } from './nav/nav.component';
+import { FlixComponent } from './flix/flix.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MiniNetflixComponent
+    NavComponent,
+    FlixComponent
   ],
   imports: [
     BrowserModule,

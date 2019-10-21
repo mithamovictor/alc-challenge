@@ -1,0 +1,4 @@
+.navbar.navbar-default, a:not([href]):not([tabindex]) {
+  color: red;
+}
+
